@@ -3,7 +3,8 @@
 ## 前提
 - 拥有Minecraft for Windows正版
 - 使用之前备份好`com.mojang`文件夹
-  - 路径：`"%LocalAppData%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang"`
+  - 路径：
+    `"%LocalAppData%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang"`
   - 备份方法：复制到任何其他地方，如桌面等
   - 还原：原路返回
 - 软件操作存在一定风险，电脑小白**务必**按照教程操作
@@ -29,7 +30,7 @@
 ### 注意事项
   - 下文中出现的所有`Minecraft`都指Minecraft for Windows (Windows UWP端)
   - 下文中出现的所有“根目录”都指`MCLauncher.exe`所在的文件夹，如：`\MCLauncher.exe`
-  - 下文中全部以反斜杠“\”开头的路径，都是指该路径直接存在于根目录下
+  - 下文中全部以反斜杠`\`开头的路径，都是指该路径直接存在于根目录下
   - 根目录的绝对路径中不能出现中文，如：`"D:\Programs\MCLauncher"`、`"C:\Program Files\MCLauncher"`，根目录的名称不一定要是`MCLauncher`
   - 任何UWP软件，包括Minecraft的安装目录下都会有一个名为`AppxManifest.xml`的文件，本教程中会利用此文件帮助理解各种目录结构
   - 如果遇到不熟悉的操作，文末的问题部分也许能帮到你
@@ -48,8 +49,8 @@
     5. 打开`versions.json`文件 (记事本、Visual Studio Code都可以)
     6. `Ctrl+A`, `Ctrl+V`粘贴刚才从网页复制的内容
     7. 刷新MCLauncher
-      - 方法一：MCLauncher主界面顶部`菜单栏-Options-Refresh version list`
-      - 方法二：重启MCLaucher
+        - 方法一：MCLauncher主界面顶部`菜单栏-Options-Refresh version list`
+        - 方法二：重启MCLaucher
 ### 手动下载并导入appx安装包
   1. 下载appx
       - https://mcappx.com
