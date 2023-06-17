@@ -95,8 +95,8 @@
 ### 替换光影
   1. 下载光影
       - B站搜索 https://search.bilibili.com
-      - 必应高级搜索 https://bing.com
-        - 技巧：
+      - 必应搜索 https://bing.com
+      - 百度搜索 https://baidu.com
       - 苦力怕论坛 https://klpbbs.com
       - MCPEDL https://mcpedl.com
       - 渲染龙光影列表
