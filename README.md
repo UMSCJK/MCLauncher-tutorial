@@ -88,6 +88,7 @@
   1. 安装7-Zip，把`7z.exe`和`7z.dll`复制到`"C:\Windows\System32"`
     (7-Zip默认安装路径：`"C:\Program Files\7-Zip"`)
   2. 创建`backup.bat`，代码：
+      
       ```
       7z a materials_original.zip .\materials\**
       exit
@@ -112,6 +113,7 @@
   3. 替换完成后重启游戏即可生效
 ### 还原渲染器文件夹
   1. 创建`reset.bat`，代码：
+      
       ```
       rmdir /S /Q "materials"
       md "materials"
