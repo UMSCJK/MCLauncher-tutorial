@@ -64,19 +64,20 @@
           - 打开网页后在中间的输入框内粘贴`https://www.microsoft.com/store/productId/9NBLGGH2JHXJ`，然后点击`✔`，加载一会后便可看到一些appx文件，在文件名以`Microsoft.MinecraftUWP_`开头、以`.appx`结尾的几个文件中找到你需要的版本，点击文件名即可开始下载 (大部分人电脑的CPU和Windows系统都兼容64位版本，若兼容)
   2. 解压安装
       - 方法一：软件内导入
-        - MCLauncher主界面顶部`菜单栏-File-Import APPX file`
-        - 选择appx安装包并打开
+        1. MCLauncher主界面顶部`菜单栏-File-Import APPX file`
+        2. 选择appx安装包并打开
       - 方法二：手动解压
         - appx打开方式
           1. 后缀名改为`zip`
           2. 使用压缩软件打开，如7-Zip、Bandizip等
-        - 解压路径：`"\imported_versions\<版本号>"`，该文件夹的名称决定了MCLauncher主界面Imported选项卡中显示的版本名称
+        - 解压路径：`"\imported_versions\<版本号>"`，该文件夹的名称决定了MCLauncher主界面`Imported`选项卡中显示的版本名称
           例：存在文件`"\imported_versions\1.20.0.1\AppxManifest.xml"`
           (不存在的文件夹需要自己创建)
-        - 注意：解压完后MCLauncher软件内并不会立刻显示出导入的版本，需要点击主界面顶部的`菜单栏-Options-Refresh version list`按钮刷新一下版本列表
+        - 注意：解压完后MCLauncher软件内并不会立刻显示出导入的版本，需要点击主界面顶部的`菜单栏-Options-Refresh version list`按钮刷新一下版本列表才能显示出来
   3. 删除p7x文件
     路径：`"\imported_versions\<版本号>\AppxSignature.p7x"`
     否则导入的MC版本无法正常启动
+  4. 切换到MCLauncher的`Imported`选项卡，找到你需要启动的版本，点击`Launch`按钮以启动
 ---
 ## 光影
 ### 备份原版渲染器文件夹
