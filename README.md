@@ -22,6 +22,8 @@
 ### MCLauncher
   - 官方GitHub：https://github.com/MCMrARM/mc-w10-version-launcher/releases
   - 无法正常访问GitHub：https://kgithub.com/MCMrARM/mc-w10-version-launcher/releases
+  - 0.4.0版本下载直链：https://github.com/MCMrARM/mc-w10-version-launcher/releases/download/0.4.0/MCLauncher.zip
+  - 无法正常访问GitHub：https://kgithub.com/MCMrARM/mc-w10-version-launcher/releases/download/0.4.0/MCLauncher.zip
 ### 压缩解压软件
   - 7-Zip (必装)：https://sparanoid.com/lab/7z/
   - Bandizip (推荐日常使用)：https://www.bandisoft.com/bandizip/
