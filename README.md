@@ -1,5 +1,6 @@
 # MCLauncher使用教程
 ---
+![MCLauncher](/img/MCLauncher.png)
 ## 前提
 - 拥有Minecraft for Windows正版
 - 使用之前备份好`com.mojang`文件夹
