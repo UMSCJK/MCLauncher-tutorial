@@ -177,6 +177,11 @@
     ![run-dxdiag](/img/run-dxdiag.png)
   3. 等待`DirectX诊断工具`启动，可能需要等待一小段时间
   4. `DirectX诊断工具`启动后切换到`系统`选项卡就能看到那些信息了
+### 其他问题
+  1. Minecraft for Windows 版本库帮助中心：https://www.mcappx.com/help/
+  2. B站搜索 https://search.bilibili.com
+  3. 必应搜索 https://bing.com
+  4. 百度搜索 https://baidu.com
 ---
 ## 作者
 [UMSC服务器](https://www.bilibili.com/video/BV19G4y1a7kg/ "宣传片")技术部长、前服主、[资源群](https://qm.qq.com/cgi-bin/qm/qr?k=Q-GMt1eguQmItZvu4PNaO9-63eFEP5Fb&jump_from=webapi&authKey=/5HkOWC7pc4S8Lk56s7s23zwqg7dg/sCyamdzgNMyMzktr8nBrkxSKcQEXxYQfW "QQ")群主 [`Cao Junkai6765`](https://space.bilibili.com/514740814 "B站主页") (脾气不太好)
