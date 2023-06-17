@@ -73,6 +73,7 @@
         - 解压路径：`"\imported_versions\<版本号>"`，该文件夹的名称决定了MCLauncher主界面Imported选项卡中显示的版本名称
           例：存在文件`"\imported_versions\1.20.0.1\AppxManifest.xml"`
           (不存在的文件夹需要自己创建)
+        - 注意：解压完后MCLauncher软件内并不会立刻显示出导入的版本，需要点击主界面顶部的`菜单栏-Options-Refresh version list`按钮刷新一下版本列表
   3. 删除p7x文件
     路径：`"\imported_versions\<版本号>\AppxSignature.p7x"`
     否则导入的MC版本无法正常启动
