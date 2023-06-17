@@ -7,11 +7,11 @@
   - 备份方法：复制到任何其他地方，如桌面等
   - 还原：原路返回
 - 软件操作存在一定风险，电脑小白**务必**按照教程操作
-- 已启用Windows开发人员模式 (按住键盘上的`Win+I`打开`Windows设置-更新与安全-开发者选项-开发人员模式`，Windows 11中在`Windows设置-隐私与安全性-开发人员模式`)
-  ![dev21h2](https://github.com/UMSCJK6765/MCLauncher-Tutorial/blob/main/img/dev21h1.png)
-  上图截取自Windows 10 LTSC 2021 (21H2)，设置界面也有可能是下图这样的：截取自Windows 10 LTSC 2019 (1809) 和Windows 11 (22H2)
-  ![dev1809](https://github.com/UMSCJK6765/MCLauncher-Tutorial/blob/main/img/dev1809.png)
-  ![dev22h2](https://github.com/UMSCJK6765/MCLauncher-Tutorial/blob/main/img/dev22h2.png)
+- 已启用Windows开发人员模式 (按住键盘上的`Win+I`打开`Windows设置-更新与安全-开发者选项-开发人员模式`，Windows 11中在`Windows设置-隐私与安全性-开发人员模式`)<br>
+  ![dev21h2](/img/dev21h2.png)
+  上图截取自Windows 10 LTSC 2021 (21H2)，设置界面也有可能是下图这样的：截取自Windows 10 LTSC 2019 (1809) 和Windows 11 (22H2)<br>
+  ![dev1809](/img/dev1809.png)<br>
+  ![dev22h2](/img/dev22h2.png)
 
 ---
 ## 软件下载
@@ -36,8 +36,8 @@
 ### 【不推荐】MCLauncher自带下载
   - 安装路径：`\<版本号>\`，如：存在文件`\1.20.0.1\AppxManifest.xml`
   - 下载慢或卡死就直接放弃
-  - 如果MCLauncher启动非常慢，最后弹出一个报错弹窗：
-    ![error](https://github.com/UMSCJK6765/MCLauncher-Tutorial/blob/main/img/error.png)
+  - 如果MCLauncher启动非常慢，最后弹出一个报错弹窗：<br>
+    ![error](/img/error.png)
     - 原因：版本列表下载失败，服务器在国外，无法正常访问属于正常现象
     - 解决办法：不管，直接点确定
   - 如果版本列表加载不出来而又需要它
@@ -97,7 +97,8 @@
         - 如果打不开：
         https://kgithub.com/DominoKorean/Render-dragon-shader-list
         打开此网页后点击一个光影版本号即可开始下载，如果下载没有立刻开始可以配合加速器使用 (如Watt Toolkit等)
-  2. 光影版本和MC版本的兼容情况![table](https://github.com/UMSCJK6765/MCLauncher-Tutorial/blob/main/img/table.png)
+  2. 光影版本和MC版本的兼容情况<br>
+      ![table](/img/table.png)
   3. 替换完成后重启游戏即可生效
 ### 还原渲染器文件夹
   1. 创建`reset.bat`，代码：
@@ -123,18 +124,18 @@
   6. 关闭你的文本编辑软件
   7. bat批处理脚本创建完毕，已经可以运行了
 ### 提示程序包依赖于一个找不到的框架怎么办？
-  报错信息如图 (可能会有部分版本号不一样)
-  ![frame](https://github.com/UMSCJK6765/MCLauncher-Tutorial/blob/main/img/frame.png)
+  报错信息如图 (可能会有部分版本号不一样)<br>
+  ![frame](/img/frame.png)
   1. 打开网页https://store.rg-adguard.net/
   2. 打开网页后在中间的输入框内粘贴`https://www.microsoft.com/store/productId/9NBLGGH2JHXJ`，然后点击`✔`，加载一会后便可看到一些appx文件，如果加载不出来，请尝试更改右侧表单控件的选项 (默认是`RP`)
   3. 找到以`Microsoft.Services.Store.Engagement_`和`Microsoft.VCLibs.`开头、以`.appx`结尾的文件 (一共是6个)，再在这些文件中找到匹配你系统位数的两个，如：`Microsoft.Services.Store.Engagement_10.0.19011.0_x64__8wekyb3d8bbwe.appx`和`Microsoft.VCLibs.140.00_14.0.32530.0_x64__8wekyb3d8bbwe.appx`
   4. 点击文件名即可开始下载，如果出现`无法安全下载`的提示，请选择保留 (大部分人电脑的CPU和Windows系统都兼容64位版本，若兼容)
   5. 安装两个appx应用包 (在此提供一种通用的方法)
       1. 打开PowerShell
-          - 方法一：按住键盘上的`Win+R`打开“运行”对话框，在输入框中输入`PowerShell`，然后点击`确定`或按下`回车`键
-          ![run-powershell](https://github.com/UMSCJK6765/MCLauncher-Tutorial/blob/main/img/run-powershell.png)
-          - 方法二：按住键盘上的`Shift`键并在资源管理器文件夹窗口内的空白处点击鼠标右键或按动键盘上的`Shift+F10`，点击`在此处打开 PowerShell 窗口`或按下键盘上的`S`键
-          ![shift-r-click](https://github.com/UMSCJK6765/MCLauncher-Tutorial/blob/main/img/shift_r_click.png)
+          - 方法一：按住键盘上的`Win+R`打开“运行”对话框，在输入框中输入`PowerShell`，然后点击`确定`或按下`回车`键<br>
+          ![run-powershell](/img/run-powershell.png)
+          - 方法二：按住键盘上的`Shift`键并在资源管理器文件夹窗口内的空白处点击鼠标右键或按动键盘上的`Shift+F10`，点击`在此处打开 PowerShell 窗口`或按下键盘上的`S`键<br>
+          ![shift-r-click](/img/shift_r_click.png)
           - 方法三：在`开始菜单`搜索`PowerShell`并打开`Windows PowerShell`应用程序
           - 方法四：按住键盘上的`Win+X`，然后按下`A`键打开PowerShell
             - 打开的也有可能是命令提示符 (cmd.exe)，可以在`Windows设置-个性化-任务栏-当我右键……`更改`Win+X高级用户功能菜单`中显示的此部分内容，前提是你的Windows系统需要被激活
@@ -142,8 +143,8 @@
        3. 重复以上步骤安装另一个appx应用包
   6. 再次尝试从MCLauncher启动游戏版本，如果还是无法启动，可能是因为你的系统内部版本太低或其他未知原因
 ### 提示程序包与设备不兼容怎么办？
-  报错信息如图 (可能会有部分版本号不一样)
-  ![version](https://github.com/UMSCJK6765/MCLauncher-Tutorial/blob/main/img/version.png)
+  报错信息如图 (可能会有部分版本号不一样)<br>
+  ![version](/img/version.png)
   1. 假设你想要解决兼容性问题的游戏版本安装在`"\imported_versions\1.20.0.1\"`，即存在文件`"\imported_versions\1.20.0.1\AppxManifest.xml"`
   2. 打开`AppxManifest.xml`文件 (用记事本或者任何文本编辑软件都可以)
   3. 修改文件中指定的最低兼容系统内部版本 (也可以称为内核版本)
@@ -158,8 +159,8 @@
 ### 我怎么知道自己的Windows系统内部版本以及CPU和系统位数？
   1. 在此提供一种通用的方法
   2. 打开`DirectX诊断工具`(`dxdiag.exe`)
-    按住键盘上的`Win+R`打开“运行”对话框，在输入框中输入`dxdiag`，然后点击`确定`或按下`回车`键
-    ![run-dxdiag](https://github.com/UMSCJK6765/MCLauncher-Tutorial/blob/main/img/run-dxdiag.png)
+    按住键盘上的`Win+R`打开“运行”对话框，在输入框中输入`dxdiag`，然后点击`确定`或按下`回车`键<br>
+    ![run-dxdiag](/img/run-dxdiag.png)
   3. 等待`DirectX诊断工具`启动，可能需要等待一小段时间
   4. `DirectX诊断工具`启动后切换到`系统`选项卡就能看到那些信息了
 ---
