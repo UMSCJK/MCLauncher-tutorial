@@ -11,7 +11,7 @@
 > - 已安装 [Microsoft Visual C++ Redistributable](https://aka.ms/vs/16/release/vc_redist.x64.exe)。
 <br>
 以上内容引用自[MCLauncher官方GitHub](https://github.com/MCMrARM/mc-w10-version-launcher)
-<img src="/img/mclauncher.png" style="width: 50%;">
+<img src="/img/mclauncher.png" style="width: 40%;">
 ## 前提
 - 拥有Minecraft for Windows正版
 - 使用之前备份好`com.mojang`文件夹
@@ -22,7 +22,7 @@
       ```
 
   - 进入方法：按住键盘上的`Win+R`打开“运行”对话框，在输入框中粘贴上述路径，然后点击`确定`或按下`回车`键<br>
-    <img src="/img/run-com.mojang.png" style="width: 50%;">
+    <img src="/img/run-com.mojang.png" style="width: 40%;">
 
   - 备份方法：复制到任何其他地方，如桌面等
   - 还原：原路返回
@@ -53,7 +53,7 @@
   - 安装路径：`\<版本号>\`，如：存在文件`\1.20.0.1\AppxManifest.xml`
   - 下载慢或卡死就直接放弃
   - 如果MCLauncher启动非常慢，最后弹出一个报错弹窗：<br>
-    <img src="/img/error.png" style="width: 50%;">
+    <img src="/img/error.png" style="width: 40%;">
     
     - 原因：版本列表下载失败，服务器在国外，无法正常访问属于正常现象
     - 解决办法：不管，直接点确定
@@ -145,7 +145,7 @@
   7. bat批处理脚本创建完毕，已经可以运行了
 ### 提示程序包依赖于一个找不到的框架怎么办？
   报错信息如图 (可能会有部分版本号不一样)<br>
-  <img src="/img/frame.png" style="width: 50%;">
+  <img src="/img/frame.png" style="width: 40%;">
 
   1. 打开网页https://store.rg-adguard.net/
   2. 打开网页后在中间的输入框内粘贴`https://www.microsoft.com/store/productId/9NBLGGH2JHXJ`，然后点击`✔`，加载一会后便可看到一些appx文件，如果加载不出来，请尝试更改右侧表单控件的选项 (默认是`RP`)
@@ -154,10 +154,10 @@
   5. 安装两个appx应用包 (在此提供一种通用的方法)
       1. 打开PowerShell
           - 方法一：按住键盘上的`Win+R`打开“运行”对话框，在输入框中输入`PowerShell`，然后点击`确定`或按下`回车`键<br>
-          <img src="/img/run-powershell.png" style="width: 50%;">
+          <img src="/img/run-powershell.png" style="width: 40%;">
 
           - 方法二：按住键盘上的`Shift`键并在资源管理器文件夹窗口内的空白处点击鼠标右键或按动键盘上的`Shift+F10`，点击`在此处打开 PowerShell 窗口`或按下键盘上的`S`键<br>
-          <img src="/img/shift_r_click.png" style="width: 50%;">
+          <img src="/img/shift_r_click.png" style="width: 40%;">
 
           - 方法三：在`开始菜单`搜索`PowerShell`并打开`Windows PowerShell`应用程序
           - 方法四：按住键盘上的`Win+X`，然后按下`A`键打开PowerShell
@@ -167,7 +167,7 @@
   6. 再次尝试从MCLauncher启动游戏版本，如果还是无法启动，可能是因为你的系统内部版本太低或其他未知原因
 ### 提示程序包与设备不兼容怎么办？
   报错信息如图 (可能会有部分版本号不一样)<br>
-  <img src="/img/version.png" style="width: 50%;">
+  <img src="/img/version.png" style="width: 40%;">
 
   1. 假设你想要解决兼容性问题的游戏版本安装在`"\imported_versions\1.20.0.1\"`，即存在文件`"\imported_versions\1.20.0.1\AppxManifest.xml"`
   2. 打开`AppxManifest.xml`文件 (用记事本或者任何文本编辑软件都可以)
