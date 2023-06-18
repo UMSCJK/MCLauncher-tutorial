@@ -157,7 +157,7 @@
           <img src="/img/run-powershell.png" style="width: 40%;">
 
           - 方法二：按住键盘上的`Shift`键并在资源管理器文件夹窗口内的空白处点击鼠标右键或按动键盘上的`Shift+F10`，点击`在此处打开 PowerShell 窗口`或按下键盘上的`S`键<br>
-          <img src="/img/shift_r_click.png" style="width: 40%;">
+          <img src="/img/shift_r_click.png" style="width: 20%;">
 
           - 方法三：在`开始菜单`搜索`PowerShell`并打开`Windows PowerShell`应用程序
           - 方法四：按住键盘上的`Win+X`，然后按下`A`键打开PowerShell
