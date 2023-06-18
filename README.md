@@ -11,7 +11,7 @@
 > - 已安装 [Microsoft Visual C++ Redistributable](https://aka.ms/vs/16/release/vc_redist.x64.exe)。
 <br>
 以上内容引用自[MCLauncher官方GitHub](https://github.com/MCMrARM/mc-w10-version-launcher)
-<img src="/img/mclauncher.png" style="width: 70%;">
+<img src="/img/mclauncher.png" style="width: 75%;">
 ## 前提
 - 拥有Minecraft for Windows正版
 - 使用之前备份好`com.mojang`文件夹
