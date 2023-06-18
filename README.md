@@ -22,16 +22,13 @@
 ---
 ## 软件下载
 ### MCLauncher
-  - 官方GitHub：https://github.com/MCMrARM/mc-w10-version-launcher/releases
-  - 无法正常访问GitHub：https://kgithub.com/MCMrARM/mc-w10-version-launcher/releases
-  - 0.4.0版本下载直链：https://github.com/MCMrARM/mc-w10-version-launcher/releases/download/0.4.0/MCLauncher.zip
-  - 无法正常访问GitHub：https://kgithub.com/MCMrARM/mc-w10-version-launcher/releases/download/0.4.0/MCLauncher.zip
+  - 官方GitHub：<a href="https://github.com/MCMrARM/mc-w10-version-launcher/releases" target="_blank">https://github.com/MCMrARM/mc-w10-version-launcher/releases</a>
+      - 如果加载慢或打不开：<a href="https://kgithub.com/MCMrARM/mc-w10-version-launcher/releases" target="_blank">https://kgithub.com/MCMrARM/mc-w10-version-launcher/releases</a>
+  - 0.4.0版本下载直链：<a href="https://github.com/MCMrARM/mc-w10-version-launcher/releases/download/0.4.0/MCLauncher.zip" target="_blank">https://github.com/MCMrARM/mc-w10-version-launcher/releases/download/0.4.0/MCLauncher.zip</a>
+      - 如果加载慢或打不开：<a href="https://kgithub.com/MCMrARM/mc-w10-version-launcher/releases/download/0.4.0/MCLauncher.zip" target="_blank">https://kgithub.com/MCMrARM/mc-w10-version-launcher/releases/download/0.4.0/MCLauncher.zip</a>
 ### 压缩解压软件
-  - 7-Zip (必装)：https://sparanoid.com/lab/7z/
-  - Bandizip (推荐日常使用)：https://www.bandisoft.com/bandizip/
-### 加速器
-  - Watt Toolkit (Steam++)：https://steampp.net/
-    作者对加速器软件了解不多，故不多做推荐，但Watt Toolkit经验证在作者的环境下确实好用
+  - 7-Zip (必装)：<a href="https://sparanoid.com/lab/7z/" target="_blank">https://sparanoid.com/lab/7z/</a>
+  - Bandizip (推荐日常使用)：<a href="https://www.bandisoft.com/bandizip/" target="_blank">https://www.bandisoft.com/bandizip/</a>
 ---
 ## 安装
 ### 注意事项
@@ -49,21 +46,21 @@
     - 原因：版本列表下载失败，服务器在国外，无法正常访问属于正常现象
     - 解决办法：不管，直接点确定
   - 如果版本列表加载不出来而又需要它
-    1. 下载安装运行Watt Toolkit (Steam++改名，如果不使用加速器会有很大概率加载不出下一步的网页)
-    2. 打开网页：https://raw.githubusercontent.com/MCMrARM/mc-w10-versiondb/master/versions.json.min
-    3. `Ctrl+A`, `Ctrl+C`复制所有内容
-    4. 在根目录打开或新建`versions.json`文件
-    5. 打开`versions.json`文件 (记事本、Visual Studio Code都可以)
-    6. `Ctrl+A`, `Ctrl+V`粘贴刚才从网页复制的内容
-    7. 刷新MCLauncher
+    1. 打开网页：<a href="https://raw.githubusercontent.com/MCMrARM/mc-w10-versiondb/master/versions.json.min" target="_blank">https://raw.githubusercontent.com/MCMrARM/mc-w10-versiondb/master/versions.json.min</a>
+        如果加载慢或打不开：<a href="https://raw.kgithub.com/MCMrARM/mc-w10-versiondb/master/versions.json.min" target="_blank">https://raw.kgithub.com/MCMrARM/mc-w10-versiondb/master/versions.json.min</a>
+    2. `Ctrl+A`, `Ctrl+C`复制所有内容
+    3. 在根目录打开或新建`versions.json`文件
+    4. 打开`versions.json`文件 (记事本、Visual Studio Code都可以)
+    5. `Ctrl+A`, `Ctrl+V`粘贴刚才从网页复制的内容
+    6. 刷新MCLauncher
         - 方法一：MCLauncher主界面顶部`菜单栏-Options-Refresh version list`
         - 方法二：重启MCLaucher
 ### 手动下载并导入appx安装包
   1. 下载appx
-      - https://mcappx.com
+      - <a href="https://mcappx.com" target="_blank">https://mcappx.com</a>
           - (如果下载缓慢可以更换数据库重新下载，如果下载文件的后缀不是appx而是zip也不影响在本教程中的使用，当然你也可以把后缀名改成appx)
-      - https://mc.minebbs.com/#/windows
-      - https://store.rg-adguard.net/
+      - <a href="https://mc.minebbs.com/#/windows" target="_blank">https://mc.minebbs.com/#/windows</a>
+      - <a href="https://store.rg-adguard.net/" target="_blank">https://store.rg-adguard.net/</a>
           - 该网站仅能获取最新版本的安装包，当你想下载刚发布的新版本但没在上面两个网站中找到时适合使用
           - 打开网页后在中间的输入框内粘贴`https://www.microsoft.com/store/productId/9NBLGGH2JHXJ`，然后点击`✔`，加载一会后便可看到一些appx文件，在文件名以`Microsoft.MinecraftUWP_`开头、以`.appx`结尾的几个文件中找到你需要的版本，点击文件名即可开始下载 (大部分人电脑的CPU和Windows系统都兼容64位版本，若兼容)
   2. 解压安装
@@ -87,7 +84,7 @@
 ### 备份原版渲染器文件夹
   1. 安装7-Zip，把`7z.exe`和`7z.dll`复制到`"C:\Windows\System32"`
     (7-Zip默认安装路径：`"C:\Program Files\7-Zip"`)
-  2. 创建`backup.bat`，代码：
+  2. 创建`backup.bat` (在本文末尾有教程)，代码：
       
       ```
       7z a materials_original.zip .\materials\**
@@ -98,22 +95,22 @@
     原理：利用7-Zip命令行版把`materials`文件夹压缩成`materials_original.zip`
 ### 替换光影
   1. 下载光影
-      - B站搜索 https://search.bilibili.com
-      - 必应搜索 https://bing.com
-      - 百度搜索 https://baidu.com
-      - 苦力怕论坛 https://klpbbs.com
-      - MCPEDL https://mcpedl.com
+      - B站搜索 <a href="https://search.bilibili.com" target="_blank">https://search.bilibili.com</a>
+      - 必应搜索 <a href="https://bing.com" target="_blank">https://bing.com</a>
+      - 百度搜索 <a href="https://baidu.com" target="_blank">https://baidu.com</a>
+      - 苦力怕论坛 <a href="https://klpbbs.com" target="_blank">https://klpbbs.com</a>
+      - MCPEDL <a href="https://mcpedl.com" target="_blank">https://mcpedl.com</a>
       - 渲染龙光影列表
         - GitHub：
-        https://github.com/DominoKorean/Render-dragon-shader-list
-        - 如果打不开：
-        https://kgithub.com/DominoKorean/Render-dragon-shader-list
+        <a href="https://github.com/DominoKorean/Render-dragon-shader-list" target="_blank">https://github.com/DominoKorean/Render-dragon-shader-list</a>
+        - 如果加载慢或打不开：
+        <a href="https://kgithub.com/DominoKorean/Render-dragon-shader-list" target="_blank">https://kgithub.com/DominoKorean/Render-dragon-shader-list</a>
         打开此网页后点击一个光影版本号即可开始下载，如果下载没有立刻开始可以配合加速器使用 (如Watt Toolkit等)
   2. 光影版本和MC版本的兼容情况<br>
       ![table](/img/table.png)
   3. 替换完成后重启游戏即可生效
 ### 还原渲染器文件夹
-  1. 创建`reset.bat`，代码：
+  1. 创建`reset.bat` (在本文末尾有教程)，代码：
       
       ```
       rmdir /S /Q "materials"
@@ -140,7 +137,7 @@
 ### 提示程序包依赖于一个找不到的框架怎么办？
   报错信息如图 (可能会有部分版本号不一样)<br>
   ![frame](/img/frame.png)
-  1. 打开网页https://store.rg-adguard.net/
+  1. 打开网页<a href="https://store.rg-adguard.net/" target="_blank">https://store.rg-adguard.net/</a>
   2. 打开网页后在中间的输入框内粘贴`https://www.microsoft.com/store/productId/9NBLGGH2JHXJ`，然后点击`✔`，加载一会后便可看到一些appx文件，如果加载不出来，请尝试更改右侧表单控件的选项 (默认是`RP`)
   3. 找到以`Microsoft.Services.Store.Engagement_`和`Microsoft.VCLibs.`开头、以`.appx`结尾的文件 (一共是6个)，再在这些文件中找到匹配你系统位数的两个，如：`Microsoft.Services.Store.Engagement_10.0.19011.0_x64__8wekyb3d8bbwe.appx`和`Microsoft.VCLibs.140.00_14.0.32530.0_x64__8wekyb3d8bbwe.appx`
   4. 点击文件名即可开始下载，如果出现`无法安全下载`的提示，请选择保留 (大部分人电脑的CPU和Windows系统都兼容64位版本，若兼容)
@@ -177,12 +174,12 @@
     ![run-dxdiag](/img/run-dxdiag.png)
   3. 等待`DirectX诊断工具`启动，可能需要等待一小段时间
   4. `DirectX诊断工具`启动后切换到`系统`选项卡就能看到那些信息了
-### 其他问题
-  1. Minecraft for Windows 版本库帮助中心：https://www.mcappx.com/help/
-  2. B站搜索 https://search.bilibili.com
-  3. 必应搜索 https://bing.com
-  4. 百度搜索 https://baidu.com
+### 更多问题请前往以下网站搜索：
+  1. <a href="https://www.mcappx.com/help/" target="_blank">Minecraft for Windows 版本库帮助中心</a>
+  2. <a href="https://search.bilibili.com" target="_blank">B站搜索</a>
+  3. <a href="https://bing.com" target="_blank">必应搜索</a>
+  4. <a href="https://baidu.com" target="_blank">百度搜索</a>
 ---
 ## 作者
-[UMSC服务器](https://www.bilibili.com/video/BV19G4y1a7kg/ "宣传片")技术部长、前服主、[资源群](https://qm.qq.com/cgi-bin/qm/qr?k=Q-GMt1eguQmItZvu4PNaO9-63eFEP5Fb&jump_from=webapi&authKey=/5HkOWC7pc4S8Lk56s7s23zwqg7dg/sCyamdzgNMyMzktr8nBrkxSKcQEXxYQfW "QQ")群主 [`Cao Junkai6765`](https://space.bilibili.com/514740814 "B站主页") (脾气不太好)
-部分灵感来自 [【MCBE-win10】版本切换与多开介绍（多开略讲）](https://www.bilibili.com/read/cv12731766 "B站专栏")
+<a href="https://www.bilibili.com/video/BV19G4y1a7kg/" target="_blank">UMSC服务器</a>技术部长、前服主、<a href="https://qm.qq.com/cgi-bin/qm/qr?k=Q-GMt1eguQmItZvu4PNaO9-63eFEP5Fb&jump_from=webapi&authKey=/5HkOWC7pc4S8Lk56s7s23zwqg7dg/sCyamdzgNMyMzktr8nBrkxSKcQEXxYQfW" target="_blank">资源群</a>群主 <a href="https://space.bilibili.com/514740814" target="_blank">`Cao Junkai6765`</a> (脾气不太好)
+部分灵感来自<a href="https://www.bilibili.com/read/cv12731766" target="_blank">【MCBE-win10】版本切换与多开介绍（多开略讲）</a>
