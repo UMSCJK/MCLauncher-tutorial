@@ -12,6 +12,7 @@
 <br>
 以上内容引用自<a href="https://github.com/MCMrARM/mc-w10-version-launcher">MCLauncher官方GitHub</a>
 <img src="https://github.com/UMSCJK/MCLauncher-tutorial/blob/main/img/mclauncher.png" style="width: 75%;">
+
 ## 前提
 - 拥有Minecraft for Windows正版
 - 使用之前备份好`com.mojang`文件夹
