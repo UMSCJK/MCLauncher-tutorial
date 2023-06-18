@@ -195,8 +195,3 @@
 ## 作者
 <a href="https://www.bilibili.com/video/BV19G4y1a7kg/" target="_blank" rel="noopener noreferrer">UMSC服务器</a>技术部长、前服主、<a href="https://qm.qq.com/cgi-bin/qm/qr?k=Q-GMt1eguQmItZvu4PNaO9-63eFEP5Fb&jump_from=webapi&authKey=/5HkOWC7pc4S8Lk56s7s23zwqg7dg/sCyamdzgNMyMzktr8nBrkxSKcQEXxYQfW" target="_blank" rel="noopener noreferrer">资源群</a>群主 <a href="https://space.bilibili.com/514740814" target="_blank" rel="noopener noreferrer">`Cao Junkai6765`</a> (脾气不太好)
 部分灵感来自<a href="https://www.bilibili.com/read/cv12731766" target="_blank" rel="noopener noreferrer">【MCBE-win10】版本切换与多开介绍（多开略讲）</a>
-
-
-## 测试
-[UMSC服务器](https://www.bilibili.com/video/BV19G4y1a7kg/ "宣传片"){:target="_blank"}技术部长、前服主、[资源群](https://qm.qq.com/cgi-bin/qm/qr?k=Q-GMt1eguQmItZvu4PNaO9-63eFEP5Fb&jump_from=webapi&authKey=/5HkOWC7pc4S8Lk56s7s23zwqg7dg/sCyamdzgNMyMzktr8nBrkxSKcQEXxYQfW "QQ"){:target="_blank"}群主 [`Cao Junkai6765`](https://space.bilibili.com/514740814 "B站主页"){:target="_blank"} (脾气不太好)
-部分灵感来自 [【MCBE-win10】版本切换与多开介绍（多开略讲）](https://www.bilibili.com/read/cv12731766 "B站专栏"){:target="_blank"}
