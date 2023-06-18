@@ -193,5 +193,5 @@
   3. [必应搜索](https://bing.com)
   4. [百度搜索](https://baidu.com)
 ## 作者
-[UMSC服务器](https://www.bilibili.com/video/BV19G4y1a7kg/ "宣传片")技术部长、前服主、[资源群](https://qm.qq.com/cgi-bin/qm/qr?k=Q-GMt1eguQmItZvu4PNaO9-63eFEP5Fb&jump_from=webapi&authKey=/5HkOWC7pc4S8Lk56s7s23zwqg7dg/sCyamdzgNMyMzktr8nBrkxSKcQEXxYQfW "QQ")群主 [`Cao Junkai6765`](https://space.bilibili.com/514740814 "B站主页") (脾气不太好)
+[UMSC服务器](https://www.bilibili.com/video/BV19G4y1a7kg/ "宣传片")技术部长、前服主、[资源群](https://qm.qq.com/cgi-bin/qm/qr?k=Q-GMt1eguQmItZvu4PNaO9-63eFEP5Fb&jump_from=webapi&authKey=/5HkOWC7pc4S8Lk56s7s23zwqg7dg/sCyamdzgNMyMzktr8nBrkxSKcQEXxYQfW "QQ")群主 [`Cao Junkai6765`](https://space.bilibili.com/514740814 "B站主页") (脾气不太好)<br>
 部分灵感来自[【MCBE-win10】版本切换与多开介绍（多开略讲）](https://www.bilibili.com/read/cv12731766 "B站专栏")
