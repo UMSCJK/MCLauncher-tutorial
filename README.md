@@ -10,7 +10,7 @@
 > - 在 Windows 10 设置中为应用安装启用了**开发人员模式**
 > - 如果您希望能够使用测试版，您还需要**使用 Xbox Insider Hub 订阅 Minecraft Beta 计划**。
 > - 已安装 <a href="https://aka.ms/vs/16/release/vc_redist.x64.exe" target="_blank">Microsoft Visual C++ Redistributable</a>。
-
+<br>
 以上内容引用自<a href="https://github.com/MCMrARM/mc-w10-version-launcher" target="_blank">MCLauncher官方GitHub</a>
 <img src="/img/mclauncher.png">
 
@@ -126,7 +126,7 @@
         打开此网页后点击一个光影版本号即可开始下载，如果下载没有立刻开始可以配合加速器使用 (如Watt Toolkit等)
   2. 光影版本和MC版本的兼容情况<br>
       <img src="/img/table.png">
-      
+
   3. 替换完成后重启游戏即可生效
 ### 还原渲染器文件夹
   1. 创建`reset.bat` (在本文末尾有教程)，代码：
