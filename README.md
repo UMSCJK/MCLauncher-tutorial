@@ -53,7 +53,7 @@
   - 安装路径：`\<版本号>\`，如：存在文件`\1.20.0.1\AppxManifest.xml`
   - 下载慢或卡死就直接放弃
   - 如果MCLauncher启动非常慢，最后弹出一个报错弹窗：<br>
-    <img src="/img/error.png">
+    <img src="/img/error.png" style="width: 50%;">
     
     - 原因：版本列表下载失败，服务器在国外，无法正常访问属于正常现象
     - 解决办法：不管，直接点确定
