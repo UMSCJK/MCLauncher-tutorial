@@ -10,7 +10,7 @@
 > - 如果您希望能够使用测试版，您还需要**使用 Xbox Insider Hub 订阅 Minecraft Beta 计划**。
 > - 已安装 [Microsoft Visual C++ Redistributable](https://aka.ms/vs/16/release/vc_redist.x64.exe)。
 <br>
-以上内容引用自[https://github.com/MCMrARM/mc-w10-version-launcher](MCLauncher官方GitHub)
+以上内容引用自<a href="https://github.com/MCMrARM/mc-w10-version-launcher">MCLauncher官方GitHub</a>
 <img src="https://github.com/UMSCJK/MCLauncher-tutorial/blob/main/img/mclauncher.png" style="width: 75%;">
 ## 前提
 - 拥有Minecraft for Windows正版
