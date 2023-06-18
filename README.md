@@ -12,8 +12,6 @@
 <br>
 以上内容引用自<a href="https://github.com/MCMrARM/mc-w10-version-launcher" target="_blank">MCLauncher官方GitHub</a>
 <img src="/img/mclauncher.png" style="width: 50%;">
-
----
 ## 前提
 - 拥有Minecraft for Windows正版
 - 使用之前备份好`com.mojang`文件夹
@@ -34,8 +32,6 @@
   <div style="align=center">
   <img src="/img/dev21h2.png" style="width: 32%; padding: 2px"><img src="/img/dev1809.png" style="width: 32%; padding: 2px"><img src="/img/dev22h2.png" style="width: 32%; padding: 2px">
   </div>
-
----
 ## 软件下载
 ### MCLauncher
   - 官方GitHub：<a href="https://github.com/MCMrARM/mc-w10-version-launcher/releases" target="_blank">https://github.com/MCMrARM/mc-w10-version-launcher/releases</a>
@@ -45,7 +41,6 @@
 ### 压缩解压软件
   - 7-Zip (必装)：<a href="https://sparanoid.com/lab/7z/" target="_blank">https://sparanoid.com/lab/7z/</a>
   - Bandizip (推荐日常使用)：<a href="https://www.bandisoft.com/bandizip/" target="_blank">https://www.bandisoft.com/bandizip/</a>
----
 ## 安装
 ### 注意事项
   - 下文中出现的所有`Minecraft`都指Minecraft for Windows (Windows UWP端)
@@ -96,7 +91,6 @@
     路径：`"\imported_versions\<版本号>\AppxSignature.p7x"`
     否则导入的MC版本无法正常启动
   4. 切换到MCLauncher的`Imported`选项卡，找到你需要启动的版本，点击`Launch`按钮以启动
----
 ## 光影
 ### 备份原版渲染器文件夹
   1. 安装7-Zip，把`7z.exe`和`7z.dll`复制到`"C:\Windows\System32"`
@@ -140,7 +134,6 @@
   2. 作用：从`materials_original.zip`还原`materials`文件夹
     原理：删除`materials`文件夹，创建新的`materials`文件夹，
     将`materials_original.zip`中的文件解压到新的`materials`文件夹
----
 ## 问题
 ### 如何创建bat批处理脚本？
   1. 在Windows资源管理器中打开需要放置bat的文件夹
@@ -201,7 +194,6 @@
   2. <a href="https://search.bilibili.com" target="_blank">B站搜索</a>
   3. <a href="https://bing.com" target="_blank">必应搜索</a>
   4. <a href="https://baidu.com" target="_blank">百度搜索</a>
----
 ## 作者
 <a href="https://www.bilibili.com/video/BV19G4y1a7kg/" target="_blank">UMSC服务器</a>技术部长、前服主、<a href="https://qm.qq.com/cgi-bin/qm/qr?k=Q-GMt1eguQmItZvu4PNaO9-63eFEP5Fb&jump_from=webapi&authKey=/5HkOWC7pc4S8Lk56s7s23zwqg7dg/sCyamdzgNMyMzktr8nBrkxSKcQEXxYQfW" target="_blank">资源群</a>群主 <a href="https://space.bilibili.com/514740814" target="_blank">`Cao Junkai6765`</a> (脾气不太好)
 部分灵感来自<a href="https://www.bilibili.com/read/cv12731766" target="_blank">【MCBE-win10】版本切换与多开介绍（多开略讲）</a>
