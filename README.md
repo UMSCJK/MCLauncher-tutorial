@@ -12,7 +12,7 @@
 > - 已安装 <a href="https://aka.ms/vs/16/release/vc_redist.x64.exe" target="_blank">Microsoft Visual C++ Redistributable</a>。
 <br>
 以上内容引用自<a href="https://github.com/MCMrARM/mc-w10-version-launcher" target="_blank">MCLauncher官方GitHub</a>
-<img src="/img/mclauncher.png">
+<img src="/img/mclauncher.png" style="width: 50%;">
 
 ---
 ## 前提
