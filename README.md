@@ -5,9 +5,11 @@
 - 拥有Minecraft for Windows正版
 - 使用之前备份好`com.mojang`文件夹
   - 路径：
+      
       ```
       `"%LocalAppData%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang"`
       ```
+
   - 进入方法：按住键盘上的`Win+R`打开“运行”对话框，在输入框中粘贴上述路径，然后点击`确定`或按下`回车`键<br>
     ![run-com.mojang](/img/run-com.mojang.png)
   - 备份方法：复制到任何其他地方，如桌面等
