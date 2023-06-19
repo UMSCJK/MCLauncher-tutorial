@@ -92,8 +92,8 @@
     路径：`"\imported_versions\<版本号>\AppxSignature.p7x"`
     否则导入的MC版本无法正常启动
   4. 切换到MCLauncher的`Imported`选项卡，找到你需要启动的版本，点击`Launch`按钮以启动
-## 光影
-### 备份原版渲染器文件夹
+# Windows端光影安装教程
+## 备份原版渲染器文件夹
   1. 安装7-Zip，把`7z.exe`和`7z.dll`复制到`"C:\Windows\System32"`
     (7-Zip默认安装路径：`"C:\Program Files\7-Zip"`)
   2. 创建`backup.bat` (在本文末尾有教程)，代码：
@@ -104,7 +104,7 @@
       ```
   3. 作用：备份`materials`文件夹
     原理：利用7-Zip命令行版把`materials`文件夹压缩成`materials_original.zip`
-### 替换光影
+## 替换光影
   1. 下载光影
       - B站搜索 https://search.bilibili.com
       - 必应搜索 https://bing.com
@@ -121,7 +121,7 @@
       <img src="https://github.com/UMSCJK/MCLauncher-tutorial/blob/main/img/table.png">
 
   3. 替换完成后重启游戏即可生效
-### 还原渲染器文件夹
+## 还原渲染器文件夹
   1. 创建`reset.bat` (在本文末尾有教程)，代码：
 
       ```
@@ -133,8 +133,8 @@
   2. 作用：从`materials_original.zip`还原`materials`文件夹
     原理：删除`materials`文件夹，创建新的`materials`文件夹，
     将`materials_original.zip`中的文件解压到新的`materials`文件夹
-## 问题
-### 如何创建bat批处理脚本？
+# 常见问题Q&A
+## 如何创建bat批处理脚本？
   1. 在Windows资源管理器中打开需要放置bat的文件夹
   2. 在空白处`右键-新建-文本文档`
   3. 打开创建的文本文档 (用记事本或者任何文本编辑软件都可以)
@@ -144,7 +144,7 @@
       - 软件`菜单栏-文件-保存`
   6. 关闭你的文本编辑软件
   7. bat批处理脚本创建完毕，已经可以运行了
-### 提示程序包依赖于一个找不到的框架怎么办？
+## 提示程序包依赖于一个找不到的框架怎么办？
   报错信息如图 (可能会有部分版本号不一样)<br>
   <img src="https://github.com/UMSCJK/MCLauncher-tutorial/blob/main/img/frame.png" style="width: 40%;">
 
@@ -166,7 +166,7 @@
        2. 在打开的PowerShell命令行窗口中输入`Add-AppxPackage`和一个`空格`，接着把一个刚才下载的appx应用包拖放到命令行窗口，然后按下`回车`键以开始安装
        3. 重复以上步骤安装另一个appx应用包
   6. 再次尝试从MCLauncher启动游戏版本，如果还是无法启动，可能是因为你的系统内部版本太低或其他未知原因
-### 提示程序包与设备不兼容怎么办？
+## 提示程序包与设备不兼容怎么办？
   报错信息如图 (可能会有部分版本号不一样)<br>
   <img src="https://github.com/UMSCJK/MCLauncher-tutorial/blob/main/img/version.png" style="width: 40%;">
 
@@ -181,18 +181,19 @@
       - 软件`菜单栏-文件-保存`
   5. 关闭你的文本编辑软件
   6. 再次尝试从MCLauncher启动你想要解决兼容性问题的游戏版本，如果还是无法启动，可能是因为你的系统内部版本确实太低了
-### 我如何知道自己的Windows系统内部版本以及CPU和系统位数？
+## 我如何知道自己的Windows系统内部版本以及CPU和系统位数？
   1. 在此提供一种通用的方法
   2. 打开`DirectX诊断工具`(`dxdiag.exe`)
     按住键盘上的`Win+R`打开“运行”对话框，在输入框中输入`dxdiag`，然后点击`确定`或按下`回车`键<br>
     ![run-dxdiag](https://github.com/UMSCJK/MCLauncher-tutorial/blob/main/img/run-dxdiag.png)
   3. 等待`DirectX诊断工具`启动，可能需要等待一小段时间
   4. `DirectX诊断工具`启动后切换到`系统`选项卡就能看到那些信息了
-### 更多问题请前往以下网站搜索：
+## 更多问题
+  请前往以下网站搜索：
   1. [Minecraft for Windows 版本库帮助中心](https://www.mcappx.com/help/)
   2. [B站搜索](https://search.bilibili.com)
   3. [必应搜索](https://bing.com)
   4. [百度搜索](https://baidu.com)
-## 作者
+# 作者
 [UMSC服务器](https://www.bilibili.com/video/BV19G4y1a7kg/ "宣传片")技术部长、前服主、[资源群](https://qm.qq.com/cgi-bin/qm/qr?k=Q-GMt1eguQmItZvu4PNaO9-63eFEP5Fb&jump_from=webapi&authKey=/5HkOWC7pc4S8Lk56s7s23zwqg7dg/sCyamdzgNMyMzktr8nBrkxSKcQEXxYQfW "QQ")群主 [`Cao Junkai6765`](https://space.bilibili.com/514740814 "B站主页") (脾气不太好)<br>
 部分灵感来自[【MCBE-win10】版本切换与多开介绍（多开略讲）](https://www.bilibili.com/read/cv12731766 "B站专栏")
