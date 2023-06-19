@@ -102,6 +102,7 @@
       7z a materials_original.zip .\materials\**
       exit
       ```
+      或者直接<a href="https://github.com/UMSCJK/MCLauncher-tutorial/blob/main/bat/backup.bat">点击下载现成的backup.bat</a>
   3. 作用：备份`materials`文件夹
     原理：利用7-Zip命令行版把`materials`文件夹压缩成`materials_original.zip`
 ## 替换光影
@@ -130,6 +131,7 @@
       7z x "materials_original.zip" -o".\materials"
       exit
       ```
+      或者直接<a href="https://github.com/UMSCJK/MCLauncher-tutorial/blob/main/bat/reset.bat">点击下载现成的reset.bat</a>
   2. 作用：从`materials_original.zip`还原`materials`文件夹
     原理：删除`materials`文件夹，创建新的`materials`文件夹，
     将`materials_original.zip`中的文件解压到新的`materials`文件夹
