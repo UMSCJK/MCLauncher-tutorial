@@ -1,6 +1,6 @@
 # MCLauncher使用教程
 ## MCLauncher简介
-> 此工具允许您并排安装多个版本的MCBE。如果您想并行测试测试版、正式版或其他任何内容，而无需卸载并重新安装游戏，这将非常有用。
+> 此工具允许您并排安装多个版本的MCBE。如果您想并行测试测试版、正式版或其他任何内容，而不卸载并重新安装游戏，这将非常有用。
 > ### 免责声明
 > 此工具不会帮助您盗版游戏；它要求您有一个可用于从商店下载 Minecraft 的 Microsoft 帐户。
 > ### 先决条件
@@ -45,17 +45,16 @@
 ## 安装
 ### 注意事项
   - 下文中出现的所有`Minecraft`都指Minecraft for Windows (Windows UWP端)
-  - 下文中出现的所有“根目录”都指`MCLauncher.exe`所在的文件夹，如：`\MCLauncher.exe`
+  - 下文中出现的所有“根目录”都指`MCLauncher.exe`所在的文件夹，如：存在文件`\MCLauncher.exe`
   - 下文中全部以反斜杠`\`开头的路径，都是指该路径直接存在于根目录下
-  - 根目录的绝对路径中不能出现中文，如：`"D:\Programs\MCLauncher"`、`"C:\Program Files\MCLauncher"`，根目录的名称不一定要是`MCLauncher`
+  - 根目录的绝对路径中不能出现中文，如：`"D:\Programs\MCLauncher"`、`"C:\Program Files\MCLauncher"`；根目录的名称不一定要是`MCLauncher`，如：存在文件`"D:\MCBE\MCLauncher.exe"`
   - 任何UWP软件，包括Minecraft的安装目录下都会有一个名为`AppxManifest.xml`的文件，本教程中会利用此文件帮助理解各种目录结构
-  - 如果遇到不熟悉的操作，文末的问题部分也许能帮到你
+  - 如果遇到不熟悉的操作，文末的Q&A部分也许能帮到你
 ### 【不推荐】MCLauncher自带下载
   - 安装路径：`\<版本号>\`，如：存在文件`\1.20.0.1\AppxManifest.xml`
   - 下载慢或卡死就直接放弃
   - 如果MCLauncher启动非常慢，最后弹出一个报错弹窗：<br>
     <img src="/img/error.png" style="width: 40%;">
-    
     - 原因：版本列表下载失败，服务器在国外，无法正常访问属于正常现象
     - 解决办法：不管，直接点确定
   - 如果版本列表加载不出来而又需要它
@@ -66,7 +65,7 @@
     4. 打开`versions.json`文件 (记事本、Visual Studio Code都可以)
     5. `Ctrl+A`, `Ctrl+V`粘贴刚才从网页复制的内容
     6. 刷新MCLauncher
-        - 方法一：MCLauncher主界面顶部`菜单栏-Options-Refresh version list`
+        - 方法一：MCLauncher主界面顶部`菜单栏-Options-Refresh version list`按钮
         - 方法二：重启MCLaucher
 ### 手动下载并导入appx安装包
   1. 下载appx
@@ -74,8 +73,8 @@
           - (如果下载缓慢可以更换数据库重新下载，如果下载文件的后缀不是appx而是zip也不影响在本教程中的使用，当然你也可以把后缀名改成appx)
       - https://mc.minebbs.com/#/windows
       - https://store.rg-adguard.net/
-          - 该网站仅能获取最新版本的安装包，当你想下载刚发布的新版本但没在上面两个网站中找到时适合使用
-          - 打开网页后在中间的输入框内粘贴`https://www.microsoft.com/store/productId/9NBLGGH2JHXJ`，然后点击`✔`，加载一会后便可看到一些appx文件，在文件名以`Microsoft.MinecraftUWP_`开头、以`.appx`结尾的几个文件中找到你需要的版本，点击文件名即可开始下载 (大部分人电脑的CPU和Windows系统都兼容64位版本，若兼容)
+          - 该网站仅提供最新版本的安装包，当上述两个网站还没收录最新版本时适合使用该网站
+          - 打开网页后在中间的输入框内粘贴`https://www.microsoft.com/store/productId/9NBLGGH2JHXJ`，然后点击`✔`，加载一会后便可看到一些appx文件，在文件名以`Microsoft.MinecraftUWP_`开头、以`.appx`结尾的几个文件中找到你需要的版本，点击文件名即可开始下载 (大部分人电脑的CPU和Windows系统都兼容64位版本，若兼容，直接点击下载Microsoft.MinecraftUWP_{版本号}_x64__8wekyb3d8bbwe.appx)
   2. 解压安装
       - 方法一：软件内导入
         1. MCLauncher主界面顶部`菜单栏-File-Import APPX file`
@@ -85,13 +84,12 @@
           1. 后缀名改为`zip`
           2. 使用压缩软件打开，如7-Zip、Bandizip等
         - 解压路径：`"\imported_versions\<版本号>"`，该文件夹的名称决定了MCLauncher主界面`Imported`选项卡中显示的版本名称
-          例：存在文件`"\imported_versions\1.20.0.1\AppxManifest.xml"`
-          (不存在的文件夹需要自己创建)
+          如：只要存在文件夹`"\imported_versions\1.20.0.1"`，Imported选项卡下都会出现一个名为`1.20.0.1`的版本 (若文件夹不存在，则需要自己创建)
         - 注意：解压完后MCLauncher软件内并不会立刻显示出导入的版本，需要点击主界面顶部的`菜单栏-Options-Refresh version list`按钮刷新一下版本列表才能显示出来
   3. 删除p7x文件
     路径：`"\imported_versions\<版本号>\AppxSignature.p7x"`
     否则导入的MC版本无法正常启动
-  4. 切换到MCLauncher的`Imported`选项卡，找到你需要启动的版本，点击`Launch`按钮以启动
+  4. 切换到MCLauncher主界面的`Imported`选项卡，找到你需要启动的版本，点击`Launch`按钮以启动
 # Windows端光影安装教程
 ## 备份原版渲染器文件夹
   1. 安装7-Zip，把`7z.exe`和`7z.dll`复制到`"C:\Windows\System32"`
@@ -117,7 +115,7 @@
         https://github.com/DominoKorean/Render-dragon-shader-list
         - 如果加载慢或打不开：
         https://kgithub.com/DominoKorean/Render-dragon-shader-list
-        打开此网页后点击一个光影版本号即可开始下载，如果下载没有立刻开始可以配合加速器使用 (如Watt Toolkit等)
+        打开此网页后点击一个光影版本号即可开始下载，如果下载没有立刻开始需要配合加速器使用 (如Watt Toolkit (Steam++) 等)
   2. 光影版本和MC版本的兼容情况<br>
       <img src="/img/table.png">
 
@@ -135,7 +133,7 @@
   2. 作用：从`materials_original.zip`还原`materials`文件夹
     原理：删除`materials`文件夹，创建新的`materials`文件夹，
     将`materials_original.zip`中的文件解压到新的`materials`文件夹
-# 常见问题Q&A
+# 常见问题 Q&A
 ## 如何创建bat批处理脚本？
   1. 在Windows资源管理器中打开需要放置bat的文件夹
   2. 在空白处`右键-新建-文本文档`
