@@ -92,17 +92,23 @@
   4. 切换到MCLauncher主界面的`Imported`选项卡，找到你需要启动的版本，点击`Launch`按钮以启动
 # Windows端光影安装教程
 ## 备份原版渲染器文件夹
-  1. 安装7-Zip，把`7z.exe`和`7z.dll`复制到`"C:\Windows\System32"`
-    (7-Zip默认安装路径：`"C:\Program Files\7-Zip"`)
-  2. 创建`backup.bat` (在本文末尾有教程)，代码：
+  1. 创建`backup.bat` (在本文末尾有教程)，代码：
 
       ```
-      7z a materials_original.zip .\materials\**
-      exit
+      @echo off
+      title 备份
+      if exist materials_original.zip (
+      	title 已存在渲染器文件夹备份！
+      	echo 已存在渲染器文件夹备份！请按任意键退出...
+      	pause>nul
+      	exit
+      ) else (
+      tar -cvzf materials_original.zip materials
+      )
       ```
       或者直接<a href="https://github.com/UMSCJK/MCLauncher-tutorial/blob/main/bat/backup.bat">查看现成的backup.bat</a>
-  3. 作用：备份`materials`文件夹
-    原理：利用7-Zip命令行版把`materials`文件夹压缩成`materials_original.zip`
+  2. 作用：备份`materials`文件夹
+    原理：利用tar命令行把`materials`文件夹压缩成`materials_original.zip`，即创建一个渲染器文件夹备份
 ## 替换光影
   1. 下载光影
       - B站搜索 https://search.bilibili.com
@@ -124,10 +130,10 @@
   1. 创建`reset.bat` (在本文末尾有教程)，代码：
 
       ```
-      rmdir /S /Q "materials"
-      md "materials"
-      7z x "materials_original.zip" -o".\materials"
-      exit
+      @echo off
+      title 还原
+      rd /S /Q "materials"
+      tar -zxvf materials_original.zip
       ```
       或者直接<a href="https://github.com/UMSCJK/MCLauncher-tutorial/blob/main/bat/reset.bat">查看现成的reset.bat</a>
   2. 作用：从`materials_original.zip`还原`materials`文件夹
