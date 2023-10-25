@@ -33,6 +33,7 @@
 <div style="display: flex; justify-content: center; align-items: center;">
   <img src="https://github.com/UMSCJK/MCLauncher-tutorial/blob/main/img/dev21h2.png" style="width: 32%; padding: 2px"><img src="https://github.com/UMSCJK/MCLauncher-tutorial/blob/main/img/dev1809.png" style="width: 32%; padding: 2px"><img src="https://github.com/UMSCJK/MCLauncher-tutorial/blob/main/img/dev22h2.png" style="width: 32%; padding: 2px">
   </div>
+
 ## 软件下载
 ### MCLauncher
   - 官方GitHub：https://github.com/MCMrARM/mc-w10-version-launcher/releases
