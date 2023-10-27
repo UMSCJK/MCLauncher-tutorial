@@ -30,7 +30,7 @@
 - 软件操作存在一定风险，电脑小白**务必**按照教程操作
 - 已启用Windows开发人员模式 (按住键盘上的`Win+I`打开`Windows设置-更新与安全-开发者选项-开发人员模式`，Windows 11中在`Windows设置-隐私与安全性-开发人员模式`)
   - 下面三图截取自截取自Windows 10 LTSC 2021 (21H2)、Windows 10 LTSC 2019 (1809) 和Windows 11 (22H2)<br>
-<div style="display: flex; justify-content: center; align-items: center;">
+<div align="center">
   <img src="https://github.com/UMSCJK/MCLauncher-tutorial/blob/main/img/dev21h2.png" style="width: 32%; padding: 2px"><img src="https://github.com/UMSCJK/MCLauncher-tutorial/blob/main/img/dev1809.png" style="width: 32%; padding: 2px"><img src="https://github.com/UMSCJK/MCLauncher-tutorial/blob/main/img/dev22h2.png" style="width: 32%; padding: 2px">
   </div>
 
